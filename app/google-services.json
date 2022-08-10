@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "615747056060",
+    "project_id": "nobanno-f2d43",
+    "storage_bucket": "nobanno-f2d43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615747056060:android:355a063356525f73c6fbb9",
+        "android_client_info": {
+          "package_name": "com.example.otp_nobanno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615747056060-33jker828043pes80esah0p08d3nbm44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqjkplN17__NvocSq5BIhMni-JJNDU_UE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615747056060-33jker828043pes80esah0p08d3nbm44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

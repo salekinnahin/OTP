@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".PhoneAuth">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edtPhoneNumberAuth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="5"
+            android:hint="Enter Your Number"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/btnGetOTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Get OTP"/>
+
+    </LinearLayout>
+        <EditText
+            android:id="@+id/edtOTPAuth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:hint="OTP"
+            android:textColor="@color/purple_200"/>
+    <Button
+        android:id="@+id/btnLoginPhoneAuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login"/>
+
+
+
+
+
+</LinearLayout>
